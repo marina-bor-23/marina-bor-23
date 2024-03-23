@@ -3,14 +3,18 @@
 <h1 align="center"> Hello &#128075, my name is Marina Borisenko</h1>
 <h3 align="center"> Data Analyst </h3> 
 <h3 align="center"> Я занимаюсь анализом данных. Мой путь в IT начался с курса по анализу данных от otus.ru. Я изучила SQL, Python, Tableau и статистику. После него я продолжила прокачивать свои навыки в SQL и Python, параллельно отправляя резюме на разные вакансии, по итогу меня зацепил анализ в продуктовой и финансовой сферах. В настоящий момент мое обучение на курсе завершено и я в поиске работы! Мои работы, практики, pet-project (создала на основе датасета 4 дашборда, сделала 10 выводов, проверила 4 выдвинутые мною гипотезы, использовала 9 calculated fields, 6 parametrs) можно посмотреть здесь ниже </h3> 
-
+<br>
 <h3 align="center"> I am engaged in data analysis. My journey in IT started with a data analysis course from otus.ru. I've studied SQL, Python, Tableau and statistics. After that, I continued to improve my skills in SQL and Python, simultaneously sending resumes to various vacancies, as a result, I got hooked on the product analysis and financial analysis. At the moment, my learning has been completed and I'm looking for a job! My work, practice, pet-project (I created 4 dashboards based on the sales dataset, made 10 conclusions, tested 4 hypotheses put forward by me, used 9 calculated fields, 6 parameters) can be viewed here below</h3>
+<br>
+
 
 - 🌍 Мое местоположение: Санкт-Петербург, Нижний Новгород, Волгоград | My location: Russia
 
 - 🔭 В настоящее время я работаю над **прокачиванием SQL и Python навыков** | I am currently working on **upgrading my SQL and Python skills**
 
 - 🧠 В настоящее время я учу **ML и продвинутую статистику для Data Analysis** | I'm currently learning **ML and advanced statistics for Data Analysis**
+
+<br>
 
 
 
@@ -40,7 +44,7 @@
 
 
 
-
+<br>
 <h3 align="left">Socials</h3>
 <p align="left">
 <a href="marina-bor-23@mail.ru" target="blank"><img align="center" src="https://img.shields.io/badge/mail.ru-white?style=social&logo=maildotru&logoColor=blue" alt="marina-bor-23@mail.ru" height="30" width="110" /></a>
