@@ -14,7 +14,9 @@
 
 - 🧠 В настоящее время я учу **ML и продвинутую статистику для Data Analysis** | I'm currently learning **ML and advanced statistics for Data Analysis**
 
-- 📝 <a href="https://otus.ru/certificate/7aaed9c690dc438a8240b8f37bbb6b5c/">Мой сертификат с курса по анализу данных</a>  | <a href="https://otus.ru/certificate/7aaed9c690dc438a8240b8f37bbb6b5c/en/">My certificate from the Data Analysis course</a> 
+- 📄 <a href="https://otus.ru/certificate/7aaed9c690dc438a8240b8f37bbb6b5c/">Мой сертификат с курса по анализу данных</a>  | <a href="https://otus.ru/certificate/7aaed9c690dc438a8240b8f37bbb6b5c/en/">My certificate from the Data Analysis course</a>
+
+- ☁ <a href="https://cloud.mail.ru/public/cP2i/HoPjddFeE">Портфолио в облаке</a>  | <a href="https://cloud.mail.ru/public/cP2i/HoPjddFeE">Portfolio in the cloud</a> 
 <br>
 
 
