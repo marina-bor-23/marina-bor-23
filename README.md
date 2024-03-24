@@ -61,6 +61,6 @@
 <br>
 <br>
 
+![Visitors](https://api.visitorbadge.io/api/visitors?path=marina-bor-23&label=Visitors%20daily&labelColor=%23b4b4b4&countColor=%23555555)
+![Visitors](https://api.visitorbadge.io/api/daily?path=marina-bor-23&label=Visitors%20total&labelColor=%23b4b4b4&countColor=%23555555)
 
-![Visitors](https://api.visitorbadge.io/api/daily?path=marina-bor-23&label=Visitors%20daily&labelColor=%23b4b4b4&countColor=%23555555)
-![Visitors](https://api.visitorbadge.io/api/visitors?path=marina-bor-23&label=Visitors%20total&labelColor=%23b4b4b4&countColor=%23555555)
