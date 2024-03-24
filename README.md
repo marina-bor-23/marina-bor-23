@@ -53,3 +53,10 @@
 <a href="www.leetcode.com/marina23" target="blank"><img align="center" src="https://img.shields.io/badge/Leetcode-white?style=social&logo=leetcode&logoColor=yellow" alt="marina23" height="30" width="130" /></a>
 <a href="github.com/marina-bor-23" target="blank"><img align="center" src="https://img.shields.io/badge/GitHub-white?style=social&logo=github&logoColor=black" alt="marina-bor-23" height="30" width="110" /></a>
 </p>
+
+
+<h3 align="left"> Experience and certificate </h3>
+
+
+
+
