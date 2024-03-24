@@ -50,7 +50,7 @@
 <br>
 <h3 align="left">Socials</h3>
 <p align="left">
-<a href="https://marina-bor-23@mail.ru" target="_blank"><img align="center" src="https://img.shields.io/badge/mail.ru-white?style=social&logo=maildotru&logoColor=blue" alt="marina-bor-23@mail.ru" height="30" width="110" /></a>
+<a href="mailto:marina-bor-23@mail.ru" target="_blank"><img align="center" src="https://img.shields.io/badge/mail.ru-white?style=social&logo=maildotru&logoColor=blue" alt="marina-bor-23@mail.ru" height="30" width="110" /></a>
 <a href="https://fb.com/100024210760703" target="blank"><img align="center" src="https://img.shields.io/badge/Facebook-white?style=social&logo=facebook&logoColor=blue" alt="100024210760703" height="30" width="130" /></a>
 <a href="https://public.tableau.com/app/profile/marinaborisenko" target="blank"><img align="center" src="https://img.shields.io/badge/Tableau Public-white?style=social&logo=tableau&logoColor=blue" alt="marinaborisenko" height="30" width="170" /></a>
 <a href="https://www.leetcode.com/marina23" target="blank"><img align="center" src="https://img.shields.io/badge/Leetcode-white?style=social&logo=leetcode&logoColor=yellow" alt="marina23" height="30" width="130" /></a>
