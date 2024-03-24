@@ -57,7 +57,9 @@
 <a href="https://github.com/marina-bor-23" target="blank"><img align="center" src="https://img.shields.io/badge/GitHub-white?style=social&logo=github&logoColor=black" alt="marina-bor-23" height="30" width="110" /></a>
 </p>
 
+<br>
+<br>
+<br>
 
 
-
-
+![Visitors](https://api.visitorbadge.io/api/daily?path=marina-bor-23&label=Visitors&countColor=%23d9e3f0&style=flat-square&labelStyle=none)
