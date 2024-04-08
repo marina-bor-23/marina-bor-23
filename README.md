@@ -58,8 +58,8 @@
 <a href="https://public.tableau.com/app/profile/marinaborisenko" target="blank"><img align="center" src="https://img.shields.io/badge/Tableau Public-white?style=social&logo=tableau&logoColor=blue" alt="marinaborisenko" height="30" width="170" /></a>
 <a href="https://www.leetcode.com/marina23" target="blank"><img align="center" src="https://img.shields.io/badge/Leetcode-white?style=social&logo=leetcode&logoColor=yellow" alt="marina23" height="30" width="130" /></a>
 <a href="https://stepik.org/users/641084350/profile" target="blank"><img align="center" src="https://img.shields.io/badge/Stepik-white?style=social&logo=stepik&logoColor=yellow" alt="Marina Borisenko" height="30" width="90" /></a> <br>
-<a href="https://platform.stratascratch.com/user/Marina" target="blank"><img align="center" src="https://img.shields.io/badge/Statascratch-white?style=social&logo=statascratch&logoColor=blue" alt="Marina Borisenko" height="30" width="140" /></a>
-<br><a href="https://github.com/marina-bor-23" target="blank"><img align="center" src="https://img.shields.io/badge/GitHub-white?style=social&logo=github&logoColor=black" alt="marina-bor-23" height="30" width="110" /></a>
+<br><a href="https://platform.stratascratch.com/user/Marina" target="blank"><img align="center" src="https://img.shields.io/badge/Statascratch-white?style=social&logo=statascratch&logoColor=blue" alt="Marina Borisenko" height="30" width="140" /></a>
+<a href="https://github.com/marina-bor-23" target="blank"><img align="center" src="https://img.shields.io/badge/GitHub-white?style=social&logo=github&logoColor=black" alt="marina-bor-23" height="30" width="110" /></a>
 </p>
 
 <br>
