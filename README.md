@@ -6,7 +6,7 @@
 <br>
 <h3 align="center"> I am engaged in data analysis. At the moment, I work at Gazpromneft Regional Sales as the chief Customer Path analysis specialist. I am looking for reasons why customers decide to start / stop using Gazprom Neft gas stations. My journey in IT started with a data analysis course from otus.ru. I've studied SQL, Python, Tableau and statistics. After that, I continued to improve my skills in SQL and Python, simultaneously sending resumes to various vacancies. I was interested in analysis in the product, financial and business spheres. At the moment, my learning has been completed and I'm looking for a job! My work, practice, pet-project (I created 4 dashboards based on the sales dataset, made 10 conclusions, tested 4 hypotheses put forward by me, used 9 calculated fields, 6 parameters) can be viewed here below. In addition, in June 2024, I finished a five-year study at St. Petersburg University of Economics with a degree in economic security</h3>
 <br>
-
+<br>
 <br>
 <details>
   <summary>Проекты в ООО "Газпром Нефть"</summary>
@@ -231,8 +231,7 @@ MAU клиентский актив.<br>
     </p>
 </details>
 <br>
-<br>
-<br>
+
 
 
 - 🌍 Мое местоположение: **Санкт-Петербург, Москва, Волгоград** | My location: **Russia**
