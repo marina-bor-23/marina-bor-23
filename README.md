@@ -1,297 +1,105 @@
-<h1 align="center">Привет &#128075, меня зовут Марина</h1>
+# Marina Borisenko
 
-<h1 align="center"> Hello &#128075, my name is Marina</h1>
-<h3 align="center"> Data Analyst, Economist </h3> 
-<h3 align="center"> Я занимаюсь анализом данных. На данный момент я работаю в ГазпромНефть Региональные Продажи на должности главного специалиста по анализу клиентского пути. Я занимаюсь поиском причин, по которым клиенты принимают решение заехать / не заехать / прекратить / начать пользование заправками Газпром Нефти. Мой путь в IT начался с курса по анализу данных от otus.ru. Я изучила SQL, Python, Tableau, Power BI и статистику. После него я продолжила прокачивать свои навыки в SQL и Python, параллельно отправляя резюме на разные вакансии. Меня заинтересовал анализ в продуктовой и финансовой  сферах. В январе 2024 мое обучение анализу данных на курсе завершено, а с июня 2024 я работаю в Газпром Нефти. Мои проекты на работе, практики с курса, pet-project (создала на основе датасета 4 дашборда, сделала 10 выводов, проверила 4 выдвинутые мною гипотезы, использовала 9 calculated fields, 6 parametrs) можно посмотреть здесь ниже. Помимо этого, в июне 2024 года я закончила специалитет в Санкт-Петербургском экономическом университете по направлению "Экономическая безопасность" </h3> 
-<br>
-<h3 align="center"> I am engaged in data analysis. At the moment, I work at Gazpromneft Regional Sales as the chief Customer Path analysis specialist. I am looking for reasons why customers decide to stop/not stop/stop/start using Gazprom Neft gas stations. My path to IT began with a course on data analysis from otus.ru . I've studied SQL, Python, Tableau, Power BI, and statistics. After that, I continued to improve my skills in SQL and Python, while simultaneously sending resumes to various vacancies. I was interested in product and financial analysis. In January 2024, my course in data analysis was completed, and since June 2024 I have been working at Gazprom Neft. My projects at work, practices from the course, pet-project (I created 4 dashboards based on the dataset, made 10 conclusions, tested 4 hypotheses put forward by me, used 9 calculated fields, 6 parameters) can be viewed here below. In addition, in June 2024, I graduated from St. Petersburg University of Economics with a degree in Economic Security</h3>
-<br>
-<br>
-<br>
-<details>
-  <summary>Проекты в ООО "Газпром Нефть"</summary>
+**Data Analyst / Product Analyst**  
+Spain | SQL | Python | BigQuery | Tableau | Power BI | Product, Payments, CRM, Retention Analytics
 
-Название проекта:<br>
-RFM сегментация клиентской базы.<br>
-Дата осуществления проекта:<br>
-Июнь 2024.<br>
-Ключевые метрики проекта:<br>
-• R – recency (давность покупки, но здесь – продолжительность дней между покупками клиента),<br>
-• F – Frecuency (частота покупок),<br>
-• M – Monetary (сумма покупок),<br>
-• Кол-во клиентов,<br>
-• Кол-во чеков,<br>
-• Кол-во литров,<br>
-• Выручка,<br>
-• % использования карточки лояльности (для покупок топлива и для покупок сопутствующих товаров).<br>
-Что необходимо было сделать (для чего нужен проект?):<br>
-• Осуществить сегментацию клиентов на основе их потребления топлива и сопутствующих товаров,<br>
-• Оценить получившуюся базу, понять, как она двигается из года в год,<br>
-• Проанализировать текущую ситуацию, предпринять меры по балансировке клиентской базы в каждой выделенной группе,<br>
-• Сравнить динамику в регионах (11 шт. в РФ) и найти «похожие» регионы, где сегментация идентична,<br>
-• Описать популярные группы – как отличается потребление топлива в одном регионе и в другом,<br>
-• Выявить аномальные значения – регионы с самым низким показателем использования карточки программы лояльности при покупке и с наибольшим.<br>
-Какими способами был реализован проект:<br>
-Выгрузка реализации из sql;
-В python использование библиотек: pandas, numpy, datetime, time, pyodbc, sqlalchemy.<br>
-Результат:<br>
-.ipynb файл-проект, где из sql озера данных выгрузила реализацию топлива по клиентам, далее присвоила группы на основе потребления (от 1 до 3), убрала выбросы по 5% сверху и снизу, рассчитала ключевые показатели проекта по годам, кварталам, регионам, сгруппировала по ключевым метрикам проекта и времени, выгрузила в .csv.<br>
-Эффект:<br>
-Сегментация клиентов автоматизирована и ускорена на 50%.<br>
-Кто пользуется проектом, как часто, для каких целей:<br>
-Сегмент Авто использует проект для отслеживания движения клиентов между группами и их поведения раз в месяц.<br>
- <br>
-Название проекта:<br>
-MAU клиентский актив.<br>
-Дата осуществления проекта:<br>
-Июль 2024.<br>
-Ключевые метрики проекта:<br>
-• Mobile App Users – кол-во клиентов, которые заходят в приложение,<br>
-• Mobile App Active Users – кол-во клиентов, которые заходят в приложение и совершают покупку после этого,<br>
-• Конверсия MAU в MAAU,<br>
-• Конверсия обычных клиентов в MAU,<br>
-• Конверсия обычных клиентов в MAAU.<br>
-Что необходимо было сделать (для чего нужен проект?):<br>
-• Оценить кол-во клиентов, которые заходят в приложение и заходят в приложение с дальнейшей покупкой от общего кол-ва клиентской базы,<br>
-• Отслеживание MAU MAAU для обнаружения ошибок приложения своевременно и оперативно,<br>
-• Оценить получившуюся базу, понять, как она двигается из года в год и из месяца в месяц, сравнить динамику MAU клиентов в регионах (11 шт. в РФ),<br>
-• Сравнить динамику в регионах и найти «похожие» регионы, где сегментация идентична,<br>
-• Описать популярные группы – как отличается потребление топлива в одном регионе и в другом,<br>
-• Выявить аномальные значения – регионы с самым низким показателем MAU и MAAUи с наибольшим.<br>
-Какими способами был реализован проект:<br>
-Выгрузка реализации из sql.<br>
-Результат:<br>
-.csv файл-проект, где из sql озера данных выгрузила кол-во обычных клиентов, которые не пользуются приложением, кол-во клиентов, которые заходят в приложение и кол-во клиентов, которые заходят в приложение с дальнейшим осуществлением транзакции, рассчитала конверсию.<br>
-Эффект:<br>
-Расчёт клиентов мобильного приложения автоматизирован и ускорен на 50%.<br>
-Кто пользуется проектом, как часто, для каких целей:<br>
-Сегмент Авто использует проект для отслеживания движения клиентов между группами и их поведения раз в месяц.<br>
- 
-Название проекта:<br>
-Портрет клиента мобильного приложения.<br>
-Дата осуществления проекта:<br>
-Июль 2024.<br>
-Ключевые метрики проекта:<br>
-• Кол-во клиентов<br>
-• Кол-во чеков топлива<br>
-• Кол-во чеков сопутствующих товаров<br>
-• Доля покупок в мобильном приложении<br>
-• Средний пролив<br>
-• Средний чек<br>
-• Конверсия СТ (чеки топлива / чеки СТ)<br>
-Что необходимо было сделать (для чего нужен проект?):<br>
-• Проанализировать потребление топлива и СТ клиентами в мобильном приложении,<br>
-• Построить графики и оформить презентацию с выводами о том, как потребляется топливо и СТ клиентами в мобильном приложении по каждому виду топлива (АИ-92, АИ-95, ДТ, G-100 и др.),<br>
-• Сравнить динамику в регионах (11 шт. в РФ) и найти «похожие» регионы, где потребление идентично,<br>
-• Описать популярные группы – как отличается потребление топлива в одном регионе и в другом,<br>
-• Выявить аномальные значения – регионы с самыми низкими ключевыми метриками проекта и с самыми высокими.<br>
-Какими способами был реализован проект:<br>
-Выгрузка реализации из sql.<br>
-Результат:<br>
-.csv файл-проект, где из sql озера данных выгрузила кол-во транзакций, кол-во клиентов, литры, выручку, кол-во проданных СТ, рассчитала % прикладывания карточки лояльности при покупке, ключевые метрики по видам топлива, годам, месяцам и регионам. Предложила маркетинговые акции для отдела маркетинга по повышению потребления для определенных клиентов мобильного приложения.<br>
-Эффект:<br>
-Создан автоматизированный проект для оценки потребления пользователей мобильного приложения. Проект создан с нуля и ранее не использовался ни в каком виде.<br>
-Кто пользуется проектом, как часто, для каких целей:<br>
-Сегмент Авто использует проект для отслеживания поведения клиентов мобильного приложения раз в месяц.<br>
- <br>
-Название проекта:<br>
-Отслеживание очередей на кассах и кассах самообслуживания.<br>
-Дата осуществления проекта:<br>
-Август 2024.<br>
-Ключевые метрики проекта:<br>
-• Кол-во клиентов<br>
-• Кол-во чеков<br>
-• Средний чек<br>
-• Кол-во касс<br>
-• Кол-во касс самообслуживания<br>
-Что необходимо было сделать (для чего нужен проект?):<br>
-• Проанализировать появление очередей на кассах и кассах самообслуживания на АЗС,<br>
-• Построить графики и оформить презентацию с выводами о том, как появляются очереди на АЗС, какой характер (системный в часы-пик или разовый из-за поломки касс) и какую продолжительность имеют,<br>
-• Сравнить динамику в регионах (11 шт. в РФ) и найти «похожие» регионы, где ситуация идентична,<br>
-• Продемонстрировать топ 10 загруженных АЗС,<br>
-• Выявить аномальные значения – регионы с самыми низкими ключевыми метриками проекта и с самыми высокими.<br>
-Какими способами был реализован проект:<br>
-Выгрузка реализации из sql.<br>
-Результат:<br>
-.csv файл-проект, где из sql озера данных выгрузила ключевые метрики по кассам, годам, месяцам и регионам. Предложила список АЗС, где рекомендуется увеличить кол-во касс, чтобы снизить очереди.<br>
-Эффект:<br>
-Создан автоматизированный проект для оценки потребления пользователей программы лояльности. Проект создан с нуля и ранее не использовался ни в каком виде.<br>
-Кто пользуется проектом, как часто, для каких целей:<br>
-Сегмент Авто использует проект для отслеживания нехватки касс на АЗС раз в месяц.<br>
- 
-Название проекта:<br>
-Тренды сопутствующих товаров к нефтепродуктам.<br>
-Дата осуществления проекта:<br>
-Сентябрь 2024.<br>
-Ключевые метрики проекта:<br>
-• Сумма тонн<br>
-• Кол-во клиентов<br>
-• Выручка<br>
-• Бонусов потрачено<br>
-• Бонусов начислено<br>
-• Выручка + (бонусов потрачено – бонусов начислено)<br>
-Что необходимо было сделать (для чего нужен проект?):<br>
-• Отобразить потребления СТ к НП по АЗС, сравнить динамику,<br>
-• Продемонстрировать топ 10 АЗС<br>
-• Выявить аномальные значения – АЗС с самыми низкими ключевыми метриками проекта и с самыми высокими.<br>
-Какими способами был реализован проект:<br>
-Выгрузка реализации из sql.<br>
-Результат:<br>
-.csv файл-проект, где из sql озера данных выгрузила ключевые метрики по АЗС, годам, месяцам и регионам.<br>
-Эффект:<br>
-Автоматизировано вычисление трендов СТ к НП через SQL (ранее вручную через excel). Благодаря проекту ускорено вычисление трендов в 5 раз.<br>
-Кто пользуется проектом, как часто, для каких целей:<br>
-Сегмент Авто использует проект для отслеживания трендов СТ к НП по АЗС еженедельно.<br>
- <br>
-Название проекта:<br>
-Рейтинг АЗС для проверки<br>
-Дата осуществления проекта:<br>
-Ноябрь 2024.<br>
-Ключевые метрики проекта:<br>
-• Сумма тонн<br>
-• Кол-во клиентов<br>
-• Выручка<br>
-• Средний чек НП<br>
-• Средний чек СТ<br>
-• Среднесуточная реализация АЗС в тоннах<br>
-• Кол-во чеков СТ<br>
-• Кол-во чеков НП<br>
-• Жалобы на горячую линию<br>
-• Плохие оценки в мобильном приложении<br>
-• % выполнения бизнес плана<br>
-• % выполнения текущего плана<br>
-• Максимум и минимум реализации АЗС<br>
-• Трафик рядом с АЗС<br>
-• Кол-во конкурентов рядом с АЗС<br>
-Что необходимо было сделать (для чего нужен проект?):<br>
-• Для отдела Контроля и качества сервиса, который занимается проверками АЗС, необходимо было осуществить проект по автоматическому расчёту АЗС к проверке на основе проблем (снижение реализации, большое кол-во жалоб, невыполнение бизнес плана и пр.),<br>
-• Вывести список АЗС, которые необходимо проверить в ближайшее время,<br>
-• Выявить аномальные значения – АЗС с самыми низкими ключевыми метриками проекта и с самыми высокими.<br>
-Какими способами был реализован проект:<br>
-Выгрузка реализации из sql с дальнейшей обработкой в python с использованием библиотек: pandas, numpy, datetime, time, pyodbc, sqlalchemy.<br>
-Результат:<br>
-.csv файл-проект, где из sql озера данных выгрузила ключевые метрики по АЗС, годам, месяцам и регионам, а в python я подгрузила, обработала и соединила отчеты других отделов в .xls, чтобы в одном документе .csv было видно по каким параметрам какие АЗС необходимо проверить.<br>
-Эффект:<br>
-Автоматизирован выбор АЗС для проверки через SQL и python (ранее вручную через excel). Благодаря проекту ускорен выбор АЗС в 10 раз, удалось избавиться от ручного выбора полностью.
-Кто пользуется проектом, как часто, для каких целей:<br>
-Сегмент Авто и Контроля и качества сервиса используют проект для еженедельного выбора АЗС для проверки.<br>
-<br>
-Название проекта:<br>
-Факторный анализ маркетинговой акции по повышению потребления кофе.<br>
-Дата осуществления проекта:<br>
-Ноябрь 2024.<br>
-Ключевые метрики проекта:<br>
-• Выручка СТ<br>
-• Кол-во чашек кофе<br>
-• Кол-во клиентов<br>
-• Кол-во транзакций<br>
-• Кол-во потраченных бонусов<br>
-• Кол-во начисленных бонусов<br>
-Что необходимо было сделать (для чего нужен проект?):<br>
-• Осуществить факторный анализ изменения потребления кофейных напитков 2023-2024 (снижение потребления от года к году, изменение сети АЗС выбытие-принятия новых АЗС, влияние других рекламных кампаний и т.д.),<br>
-• Выявить основные факторы, влияющие на потребление кофе клиентами сети,<br>
-• Выявить неэффективные факторы,<br>
-• Отслеживать увеличение % пользования карточками лояльности как эффективность акции,<br>
-• Отслеживание эффективности пользования начисленными бонусами.<br>
-Какими способами был реализован проект:<br>
-Выгрузка реализации из sql.<br>
-Результат:<br>
-.csv файл-проект, где из sql озера данных выгрузила ключевые метрики по АЗС, годам, месяцам и регионам. Отобразила неэффективные факторы и предложила их к изменению.<br>
-Эффект:<br>
-Осуществлен факторный анализ потребления клиентами кофе, по шаблону которого можно вычислять любые факторы к любой маркетинговой акции. Проект создавался с нуля и ранее не использовался.<br>
-Кто пользуется проектом, как часто, для каких целей:<br>
-Сегмент Авто и Отдел Маркетинга использует проект для отслеживания эффективности факторов маркетинговых акций, направленных на повышение потребления кофейных напитков.<br>
+I am a data and product analyst with an economics background and hands-on experience in product, customer journey, payments, retention, funnel and business health analytics.
 
- <br>
-Название проекта:
-Факторный анализ маркетинговой акции по повышению потребления НП.<br>
-Дата осуществления проекта:<br>
-Декабрь 2024.<br>
-Ключевые метрики проекта:<br>
-• Сумма тонн НП<br>
-• Кол-во чеков НП<br>
-• Кол-во клиентов<br>
-• Кол-во транзакций<br>
-• Кол-во потраченных бонусов<br>
-• Кол-во начисленных бонусов<br>
-Что необходимо было сделать (для чего нужен проект?):<br>
-• Осуществить факторный анализ изменения потребления топлива 2023-2024 (снижение потребления от года к году, изменение сети АЗС выбытие-принятия новых АЗС, влияние других рекламных кампаний и т.д.),<br>
-• Выявить основные факторы, влияющие на потребление,<br>
-• Выявить неэффективные факторы,<br>
-• Отслеживать увеличение % пользования карточками лояльности как эффективность акции,<br>
-• Отслеживание эффективности пользования начисленными бонусами.<br>
-Какими способами был реализован проект:<br>
-Выгрузка реализации из sql.<br>
-Результат:<br>
-.csv файл-проект, где из sql озера данных выгрузила ключевые метрики по АЗС, годам, месяцам и регионам. Отобразила неэффективные факторы и предложила их к изменению.<br>
-Эффект:<br>
-Осуществлен факторный анализ потребления клиентами НП, по шаблону которого можно вычислять любые факторы к любой маркетинговой акции. Проект создавался с нуля и ранее не использовался.<br>
-Кто пользуется проектом, как часто, для каких целей:<br>
-Сегмент Авто использует проект для отслеживания эффективности факторов маркетинговых акций, направленных на повышение потребления НП.<br>
-    </p>
-</details>
-<br>
+My work usually sits between business questions and data: I transform raw events, transactions and user activity into clear metrics, automated reports, statistical checks and recommendations for product, CRM, payments, marketing and operations teams.
 
+## Focus Areas
 
+- Product analytics: funnels, conversion, retention, cohorts, LTV, ARPU, user segmentation
+- Payments analytics: deposit behavior, payment method risk, transaction failures, revenue impact
+- CRM and lifecycle analytics: VIP segmentation, reactivation timing, retention opportunities
+- Business diagnostics: anomaly investigation, product health monitoring, impact analysis
+- Reporting automation: Python/SQL pipelines, Excel reports, BI dashboards and presentations
 
-- 🌍 Мое местоположение: **Барселона, Испания** | My location: **Barcelona, Spain**
+## Selected Case Studies
 
-- 🔭 В настоящее время я работаю над **прокачиванием SQL и Python навыков** | I am currently working on **upgrading my SQL and Python skills**
+### Cohort-Based Business Health Audit
+Analyzed 23 months of product and revenue data to evaluate acquisition quality, retention, LTV and segment profitability across user types, VIP status and GEOs.
 
-- 🧠 В настоящее время я учу **ML и продвинутую статистику для Data Analysis** | I'm currently learning **ML and advanced statistics for Data Analysis**
+- Built cohort logic for M1, M3, M6 and M12 retention.
+- Found that 70-80% of LTV was generated during the first 90 days of a user's lifecycle.
+- Identified segments with strong volume but falling ARPU, and high-value segments with weak long-term retention.
+- Produced recommendations for onboarding, bonus policy, GEO scaling and early-life retention.
 
-- 🌐 Языки: **испанский B2, английский B1, русский родной** | Languages: **spanish B2, english B1, russian native**
+**Stack:** Python, pandas, NumPy, SciPy, BigQuery, Parquet, Excel reporting.
 
-- 📄 <a href="https://otus.ru/certificate/7aaed9c690dc438a8240b8f37bbb6b5c/">Мой сертификат с курса по анализу данных</a>  | <a href="https://otus.ru/certificate/7aaed9c690dc438a8240b8f37bbb6b5c/en/">My certificate from the Data Analysis course</a>
+### Registration Funnel Analysis
+Evaluated the impact of GEO-sensitive registration form customization across 12 countries and desktop, mobile web and app traffic.
 
-- ☁ <a href="https://cloud.mail.ru/public/cP2i/HoPjddFeE">Портфолио в облаке</a>  | <a href="https://cloud.mail.ru/public/cP2i/HoPjddFeE">Portfolio in the cloud</a> 
-<br>
+- Built a 20-step registration funnel from GA4 events.
+- Calculated conversion, error rate, drop-off rate and form completion time by GEO, device and registration type.
+- Identified countries and device groups with the strongest and weakest registration performance.
+- Prepared an automated Excel report with funnel, device, country and time-to-register analysis.
 
+**Stack:** Python, pandas, NumPy, BigQuery, GA4 event data, openpyxl.
 
+### Platform Deposit Drop Investigation
+Investigated a suspected mobile app outage and its impact on deposits across platforms and GEOs.
 
+- Processed 451K+ transaction rows from BigQuery and cached data in Parquet for repeat analysis.
+- Split the month into baseline, transition and incident periods.
+- Used statistical tests to validate the deposit drop and compare platform behavior.
+- Confirmed a statistically significant decline after the incident date and localized the strongest impact to one platform and two GEOs.
 
-<h3 align="left">Skills and Tools</h3>
-<p align="left"> 
-<img src="https://img.shields.io/badge/MICROSOFT SQL-white?style=for-the-badge&logo=microsoftsqlserver&logoColor=red"/>
-<img src="https://img.shields.io/badge/MYSQL-white?style=for-the-badge&logo=mysql&logoColor=blue"/> 
-<img src="https://img.shields.io/badge/ORACLE-white?style=for-the-badge&logo=oracle&logoColor=orange"/> 
-<img src="https://img.shields.io/badge/POSTRGESQL-white?style=for-the-badge&logo=postgresql&logoColor=blue"/> 
-<img src="https://img.shields.io/badge/SQLITE-white?style=for-the-badge&logo=sqlite&logoColor=blue"/> 
-<img src="https://img.shields.io/badge/PYTHON-white?style=for-the-badge&logo=python&logoColor=DDD803"/> 
-<img src="https://img.shields.io/badge/GOOGLE COLAB-white?style=for-the-badge&logo=googlecolab&logoColor=yellow"/> 
-<img src="https://img.shields.io/badge/JUPITER-white?style=for-the-badge&logo=jupyter&logoColor=yellow"/> 
-<img src="https://img.shields.io/badge/PANDAS-white?style=for-the-badge&logo=pandas&logoColor=blue"/> 
-<img src="https://img.shields.io/badge/SEABORN-white?style=for-the-badge&logo=seaborn&logoColor=blue"/> 
-<img src="https://img.shields.io/badge/NUMPY-white?style=for-the-badge&logo=numpy&logoColor=blue"/> 
-<img src="https://img.shields.io/badge/STATS-white?style=for-the-badge&logo=stats&logoColor=blue"/> 
-<img src="https://img.shields.io/badge/MATPLOTLIB-white?style=for-the-badge&logo=matplotlib&logoColor=violet"/> 
-<img src="https://img.shields.io/badge/PLOTLY-white?style=for-the-badge&logo=plotly&logoColor=blue"/> 
-<img src="https://img.shields.io/badge/TABLEAU-white?style=for-the-badge&logo=tableau&logoColor=blue"/> 
-<img src="https://img.shields.io/badge/POWER BI-white?style=for-the-badge&logo=powerbi&logoColor=DDD803"/> 
-<img src="https://img.shields.io/badge/MICROSOFT AZURE-white?style=for-the-badge&logo=microsoftazure&logoColor=blue"/> 
-<img src="https://img.shields.io/badge/GOOGLE CLOUD-white?style=for-the-badge&logo=googlecloud&logoColor=red"/> 
-<img src="https://img.shields.io/badge/YANDEX CLOUD-white?style=for-the-badge&logo=yandexcloud&logoColor=blue"/> 
-<img src="https://img.shields.io/badge/MICROSOFT EXCEL-white?style=for-the-badge&logo=microsoftexcel&logoColor=green"/> </p>
+**Stack:** Python, pandas, NumPy, SciPy, Matplotlib, Seaborn, BigQuery, Parquet, openpyxl.
 
+### Payment Method Shutdown Impact Analysis
+Assessed the business risk of disabling two payment methods in one GEO over a six-month period.
 
+- Analyzed 758K transactions and 20K users.
+- Measured potential user, transaction and deposit volume loss.
+- Calculated user overlap between payment methods and identified users with no alternative payment behavior.
+- Built weekly trend analysis and a structured Excel report for decision-making.
 
-<br>
-<h3 align="left">Socials</h3>
-<p align="left">
-<a href="mailto:marina-bor-23@mail.ru" target="_blank"><img align="center" src="https://img.shields.io/badge/mail.ru-white?style=social&logo=maildotru&logoColor=blue" alt="marina-bor-23@mail.ru" height="30" width="110" /></a>
-<a href="https://fb.com/100024210760703" target="blank"><img align="center" src="https://img.shields.io/badge/Facebook-white?style=social&logo=facebook&logoColor=blue" alt="100024210760703" height="30" width="130" /></a>
-<a href="https://www.linkedin.com/in/marina-borisenko/" target="blank"><img align="center" src="https://img.shields.io/badge/Linkedin-white?style=social&logo=linkedin&logoColor=blue" alt="100024210760703" height="30" width="130" /></a>
-<a href="https://public.tableau.com/app/profile/marinaborisenko" target="blank"><img align="center" src="https://img.shields.io/badge/Tableau Public-white?style=social&logo=tableau&logoColor=blue" alt="marinaborisenko" height="30" width="170" /></a>
-<a href="https://www.leetcode.com/marina23" target="blank"><img align="center" src="https://img.shields.io/badge/Leetcode-white?style=social&logo=leetcode&logoColor=yellow" alt="marina23" height="30" width="130" /></a>
-<a href="https://stepik.org/users/641084350/profile" target="blank"><img align="center" src="https://img.shields.io/badge/Stepik-white?style=social&logo=stepik&logoColor=yellow" alt="Marina Borisenko" height="30" width="90" /></a> <br>
-<br><a href="https://platform.stratascratch.com/user/Marina" target="blank"><img align="center" src="https://img.shields.io/badge/Statascratch-white?style=social&logo=statascratch&logoColor=blue" alt="Marina Borisenko" height="30" width="140" /></a>
-<a href="https://github.com/marina-bor-23" target="blank"><img align="center" src="https://img.shields.io/badge/GitHub-white?style=social&logo=github&logoColor=black" alt="marina-bor-23" height="30" width="110" /></a>
-</p>
+**Stack:** Python, pandas, NumPy, BigQuery, openpyxl.
 
-<br>
-<br>
-<br>
+### Minimum Deposit Increase Impact Analysis
+Estimated the effect of increasing the minimum deposit threshold on revenue, user churn and the new-player funnel.
 
+- Analyzed 389K successful deposit transactions across six months.
+- Segmented users into small-only, mixed and large-deposit groups.
+- Evaluated losses by payment method, traffic source, player type and VIP segment.
+- Measured first-deposit behavior and LTV differences between deposit-size cohorts.
 
-![Visitors](https://api.visitorbadge.io/api/daily?path=marina-bor-23&label=Visitors%20daily&labelColor=%23b4b4b4&countColor=%23555555)
-![Visitors](https://api.visitorbadge.io/api/visitors?path=marina-bor-23&label=Visitors%20total&labelColor=%23b4b4b4&countColor=%23555555)
+**Stack:** Python, pandas, NumPy, Matplotlib, BigQuery, openpyxl.
+
+### CRM Timing Optimization
+Identified the weakest weekdays for VIP deposits by country and segment to improve CRM campaign timing.
+
+- Calculated daily average deposit, segment benchmark and percentage decline from segment average.
+- Used CTEs and window functions to rank the weakest day for each country-segment pair.
+- Delivered a ready-to-use table for targeted reactivation and retention campaigns.
+
+**Stack:** SQL, BigQuery, CTEs, window functions, aggregation, date functions.
+
+## Tools
+
+**Languages and analytics:** SQL, Python, statistics, hypothesis testing, A/B testing basics  
+**Python:** pandas, NumPy, SciPy, Matplotlib, Seaborn, Plotly, scikit-learn  
+**Databases and cloud:** BigQuery, MS SQL, PostgreSQL, MySQL, Google Cloud basics  
+**BI and reporting:** Tableau, Power BI, Excel, Power Query, Google Analytics 4  
+**Workflow:** Jupyter Notebook, Google Colab, GitHub, Miro
+
+## Portfolio Repositories
+
+- [SQL](https://github.com/marina-bor-23/sql) - SQL practice, analytical queries and query optimization tasks.
+- [Python and Statistics](https://github.com/marina-bor-23/python-and-statistics) - Python, statistics, data analysis and visualization practice.
+- [Tableau](https://github.com/marina-bor-23/tableau) - Tableau dashboards and hypothesis-testing portfolio work.
+- [Economic and Financial Projects](https://github.com/marina-bor-23/economic-financial) - economics, financial modeling and university projects.
+
+## Links
+
+- [LinkedIn](https://www.linkedin.com/in/marina-borisenko/)
+- [Tableau Public](https://public.tableau.com/app/profile/marinaborisenko)
+- [Portfolio in cloud](https://cloud.mail.ru/public/cP2i/HoPjddFeE)
+- [Data Analysis certificate](https://otus.ru/certificate/7aaed9c690dc438a8240b8f37bbb6b5c/en/)
+
+## Languages
+
+- Russian: native
+- Spanish: B2
+- English: B1
