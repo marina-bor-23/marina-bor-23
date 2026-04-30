@@ -32,6 +32,24 @@ My work sits between business questions and data: I transform raw events, transa
   <li>Reporting automation: Python/SQL pipelines, Excel reports, BI dashboards and presentations</li>
 </ul>
 
+<h2>Analytics Case Library</h2>
+
+<p>
+I keep anonymized product and data analytics case studies in a structured portfolio library:
+</p>
+
+<p>
+  <a href="./analytics-case-library"><b>Open Analytics Case Library</b></a>
+</p>
+
+<ul>
+  <li>Cohort, LTV and retention analytics</li>
+  <li>Registration funnel and GA4 event analysis</li>
+  <li>Payments and transaction failure analysis</li>
+  <li>CRM campaign ROI and VIP segmentation</li>
+  <li>Product health and incident impact analysis</li>
+</ul>
+
 <h2>Selected Case Studies</h2>
 
 <h3>Cohort-Based Business Health Audit</h3>
@@ -142,10 +160,6 @@ Identified the weakest weekdays for VIP deposits by country and segment to impro
 
 <br>
 
-
-
-
-
 <h3 align="left">Skills and Tools</h3>
 <p align="left"> 
 <img src="https://img.shields.io/badge/MICROSOFT SQL-white?style=for-the-badge&logo=microsoftsqlserver&logoColor=red"/>
@@ -169,8 +183,6 @@ Identified the weakest weekdays for VIP deposits by country and segment to impro
 <img src="https://img.shields.io/badge/YANDEX CLOUD-white?style=for-the-badge&logo=yandexcloud&logoColor=blue"/> 
 <img src="https://img.shields.io/badge/MICROSOFT EXCEL-white?style=for-the-badge&logo=microsoftexcel&logoColor=green"/> </p>
 
-
-
 <br>
 <h3 align="left">Socials</h3>
 <p align="left">
@@ -187,7 +199,6 @@ Identified the weakest weekdays for VIP deposits by country and segment to impro
 <br>
 <br>
 <br>
-
 
 ![Visitors](https://api.visitorbadge.io/api/daily?path=marina-bor-23&label=Visitors%20daily&labelColor=%23b4b4b4&countColor=%23555555)
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=marina-bor-23&label=Visitors%20total&labelColor=%23b4b4b4&countColor=%23555555)
